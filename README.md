@@ -1,2 +1,13 @@
-# Studienarbeit_CovidFakeNews
-Dieses Repository enthält die praktische Ausarbeitung der Studienarbeit "Fake News Erkennung mit Hilfe von Machine Learning"  von Lisa Menacher und Kai-Uwe Hüber unter der Betreuung von Prof. Dr. Carmen Winter. Darin werden verschieden Ansätze zur Identifikation von falsch Informationen im Internet mit statistischen Modellen vorgestellt und analysiert.
+# Fake News Detection Covid-19
+
+Fake News stellen ein zunehmendes Problem bei der digitalen Informationsbeschaffung dar. Solche Nachrichten, in einem journalistischen Format mit der konkreten Absicht zur Täuschung, machen es Nutzer*innen schwer, zwischen wahren und falschen Informationen zu differenzieren. Nicht nur Texte, sondern auch Bilder, Videos und Tonaufnahmen können durch moderne Technologien wie Deep Fake Algorithmen gefälscht werden. Während der weltweiten Covid-19-Pandemie wurden besonders viele Fake News veröffentlicht, sodass die manuelle Überprüfung aller hochgeladenen Nachrichten nicht länger möglich und zielführend ist. Aus diesem Grund werden im Rahmen dieser Arbeit vier Modelle zur Erkennung von Fake News über Covid-19 mithilfe von maschinellem Lernen und künstlicher Intelligenz entwickelt. Es wurden folgende Algorithmen zur Textklassifizierung umgesetzt: Naive Bayes, Gradient Boosting, Support Vector Machines (SVM) und ein rekurrentes neuronales Netz. Zur Optimierung der Modelle wird Rastersuche eingesetzt. Zur Evaluation werden die Metriken Accuracy, Precision, Recall und der f1-Score berechnet, außerdem wird eine Konfusions-Matrix und ROC-Kurve erstellt. Auf dem Trainingsdatensatz von Patwa et al. erreichen die SVM und das wiederkehrende neuronale Netz die besten Werte (Accuracy 94 %), der Gradient Boosting Algorithmus performt am schlechtesten. Neben den Machine Learning Modellen wurde im Rahmen dieser Arbeit zudem eine Lehreinheit zur Sensibilisierung für Fake News und zur Erleichterung des Einstiegs in die Textklassifizierung für Studierende der Fakultät Sozialwissenschaften erstellt.
+
+PUBLISHED UNDER MIT License
+
+Copyright 2021 Lisa Menacher & Kai-Uwe Hüber
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
